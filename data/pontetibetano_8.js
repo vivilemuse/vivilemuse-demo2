@@ -1,0 +1,9 @@
+var json_pontetibetano_8 = {
+"type": "FeatureCollection",
+"name": "pontetibetano_8",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "tipologia": "ponte tibetano", "nome": "PONTE TRA I DUE PARCHI", "comune": "CASTELSARACENO", "via/piazza": "PIAZZA PIANO DELLA CORTE, 10, 85031 CASTELSARACENO PZ", "contatti": "Comune: 0973 832013", "foto": "C:\\Users\\Pompeo\\Desktop\\mapparchi-2022\\foto-mappameraviglie2022 WEB\\pontetibetano.jpg", "Descrizion": "Con i suoi 586 metri di lunghezza e 80 metri di altezza dal suolo è un attrattore adatto a tutte le persone che amano le attività e gli sport outdoor che danno adrenalina.", "Descrizi_1": null, "Link utili": "https://visitcastelsaraceno.info/", "video": "https://www.youtube.com/watch?v=EbINqwMVhEU" }, "geometry": { "type": "Point", "coordinates": [ 15.99132756, 40.16302351 ] } },
+{ "type": "Feature", "properties": { "tipologia": "ponte tibetano", "nome": "PONTE ALLA LUNA", "comune": "SASSO DI CASTALDA", "via/piazza": "VIA ROMA, 68", "contatti": "347 0979181", "foto": "C:\\Users\\Pompeo\\Desktop\\mapparchi-2022\\foto-mappameraviglie2022 WEB\\ponteallaluna.jpg", "Descrizion": "Sono due i ponti tibetani sul percorso del Fosso Arenazzo. Il Ponte alla Luna, il più lungo, con una campata unica di ben 300 metri a 120 metri di altezza sul torrente sottostante, consente di raggiungere castello diruto che domina dall’alto il paese.", "Descrizi_1": "All’arrivo è presente una sky-walk in vetro sospesa sul ponte e un belvedere attrezzato da cui godere di un bellissimo panorama. La durata totale del percorso dei ponti tibetani è di circa 2-3 ore.", "Link utili": "https://www.pontetibetanosassodicastalda.com/", "video": "https://www.youtube.com/watch?v=793fMp4ojCc" }, "geometry": { "type": "Point", "coordinates": [ 15.67574584, 40.49103072 ] } }
+]
+}

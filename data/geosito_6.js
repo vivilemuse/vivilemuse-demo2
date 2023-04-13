@@ -1,0 +1,9 @@
+var json_geosito_6 = {
+"type": "FeatureCollection",
+"name": "geosito_6",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "tipologia": "geosito", "nome": "PIANORO DI CIOLANDREA", "comune": "SAN GIOVANNI A PIRO", "via/piazza": null, "contatti": null, "foto": "C:\\Users\\Pompeo\\Desktop\\mapparchi-2022\\foto-mappameraviglie2022 WEB\\pianoro ciolandrea - san giovanni a piro paola cetrangolo.jpg", "Descrizion": "II Pianoro di Ciolandrea è certamente tra i luoghi più panoramici del Cilento, poco distante dal Santuario di Pietrasanta.", "Descrizi_1": "Domina l’Area marina Protetta Costa degli Infreschi-Masseta e il Golfo di Policastro ed è punto di accesso di diversi sentieri escursionistici, alcuni dei quali permettono di raggiungere il mare (es. sentiero del Marcellino).", "Link utili": null, "video": "https://www.youtube.com/watch?v=fdk5HFMJmqk" }, "geometry": { "type": "Point", "coordinates": [ 15.45720871, 40.04071919 ] } },
+{ "type": "Feature", "properties": { "tipologia": "geosito", "nome": "ARCOMAGNO", "comune": "SAN NICOLA ARCELLA", "via/piazza": "LOCALITÀ ARCOMAGNO", "contatti": "0985 3218", "foto": "C:\\Users\\Pompeo\\Desktop\\mapparchi-2022\\foto-mappameraviglie2022 WEB\\arcomagno2.jpg", "Descrizion": "Importante emergenza naturalistica e paesaggistica a poca distanza dall’Isola di Dino. È assolutamente vietato il passaggio in mare sotto l’arco per ragioni di sicurezza e tale divieto riguarda imbarcazioni, pattini e bagnanti.", "Descrizi_1": "L’accesso pedonale è regolato e a pagamento con punti vendita dei tiket a Sud, in prossimità dell’accesso alla scalinata della Marinella, e Nord in prossimità dell’ingresso sotto l’arco di Enea.", "Link utili": null, "video": "https://www.youtube.com/watch?v=bZ7ZCGydQSM" }, "geometry": { "type": "Point", "coordinates": [ 15.79212581, 39.85489548 ] } }
+]
+}
