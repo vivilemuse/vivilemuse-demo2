@@ -533,7 +533,10 @@
                         <td colspan="2"><strong>Descrizione</strong><br />' + (feature.properties['Descrizion'] !== null ? autolinker.link(feature.properties['Descrizion'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Link utili</strong><br />' + (feature.properties['Link utili'] !== null ? '<img src="images/' + String(feature.properties['Link utili']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
+                        <td colspan="2"><strong> </strong><br />' + (feature.properties['Descrizi_1'] !== null ? autolinker.link(feature.properties['Descrizi_1'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                      <tr>\
+                        <td colspan="2"><strong>Link utili</strong><br />' + (feature.properties['Link utili'] !== null ? autolinker.link(feature.properties['Link utili'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['video'] !== null ? '<iframe width="280" height="200" src="' + videoPopupLink + '"/>' : '') + '</td>\
@@ -1055,19 +1058,19 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['tipologia'] !== null ? autolinker.link(feature.properties['tipologia'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Tipologia</strong><br />' + (feature.properties['tipologia'] !== null ? autolinker.link(feature.properties['tipologia'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['nome'] !== null ? autolinker.link(feature.properties['nome'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Nome</strong><br />' + (feature.properties['nome'] !== null ? autolinker.link(feature.properties['nome'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['comune'] !== null ? autolinker.link(feature.properties['comune'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Comune</strong><br />' + (feature.properties['comune'] !== null ? autolinker.link(feature.properties['comune'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['via/piazza'] !== null ? autolinker.link(feature.properties['via/piazza'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Indirizzo</strong><br />' + (feature.properties['via/piazza'] !== null ? autolinker.link(feature.properties['via/piazza'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['contatti'] !== null ? autolinker.link(feature.properties['contatti'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Contatti</strong><br />' + (feature.properties['contatti'] !== null ? autolinker.link(feature.properties['contatti'].toLocaleString()) : '') + '</td>\
                     </tr>\
                      <tr>\
                         <td colspan="2">' + (feature.properties['foto'] !== null ? '<a href="images/' + (feature.properties['foto']).replace(/[\\\/:]/g, '_').trim() + '" /" target="blank"><img src="images/' + (feature.properties['foto']).replace(/[\\\/:]/g, '_').trim() + '"/ width="305" height="300"></a></td>' : '') + '</td>\
@@ -1839,8 +1842,7 @@
                         <td colspan="2"><strong>Tipologia</strong><br />' + (feature.properties['tipologia'] !== null ? autolinker.link(feature.properties['tipologia'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Nome</th>\
-                        <td>' + (feature.properties['nome'] !== null ? autolinker.link(feature.properties['nome'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Nome</strong><br />' + (feature.properties['nome'] !== null ? autolinker.link(feature.properties['nome'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2"><strong>Comune</strong><br />' + (feature.properties['comune'] !== null ? autolinker.link(feature.properties['comune'].toLocaleString()) : '') + '</td>\
@@ -1915,20 +1917,16 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">Tipologia</th>\
-                        <td>' + (feature.properties['tipologia'] !== null ? autolinker.link(feature.properties['tipologia'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Tipologia</strong><br />' + (feature.properties['tipologia'] !== null ? autolinker.link(feature.properties['tipologia'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Nome</th>\
-                        <td>' + (feature.properties['nome'] !== null ? autolinker.link(feature.properties['nome'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Nome</strong><br />' + (feature.properties['nome'] !== null ? autolinker.link(feature.properties['nome'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Comune</th>\
-                        <td>' + (feature.properties['comune'] !== null ? autolinker.link(feature.properties['comune'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Comune</strong><br />' + (feature.properties['comune'] !== null ? autolinker.link(feature.properties['comune'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Indirizzo</th>\
-                        <td>' + (feature.properties['via/piazza'] !== null ? autolinker.link(feature.properties['via/piazza'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Indirizzo</strong><br />' + (feature.properties['via/piazza'] !== null ? autolinker.link(feature.properties['via/piazza'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Contatti</th>\
@@ -1938,8 +1936,7 @@
                         <td colspan="2">' + (feature.properties['foto'] !== null ? '<a href="images/' + (feature.properties['foto']).replace(/[\\\/:]/g, '_').trim() + '" /" target="blank"><img src="images/' + (feature.properties['foto']).replace(/[\\\/:]/g, '_').trim() + '"/ width="305" height="300"></a></td>' : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Descrizione</th>\
-                        <td>' + (feature.properties['Descrizion'] !== null ? autolinker.link(feature.properties['Descrizion'].toLocaleString()) : '') + '</td>\
+                         <td colspan="2"><strong>Descrizione</strong><br />' + (feature.properties['Descrizion'] !== null ? autolinker.link(feature.properties['Descrizion'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Descrizi_1'] !== null ? autolinker.link(feature.properties['Descrizi_1'].toLocaleString()) : '') + '</td>\
@@ -2155,16 +2152,16 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['tipologia'] !== null ? autolinker.link(feature.properties['tipologia'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Tipologia</strong><br />' + (feature.properties['tipologia'] !== null ? autolinker.link(feature.properties['tipologia'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                   <tr>\
+                        <td colspan="2"><strong>Nome</strong><br />' + (feature.properties['nome'] !== null ? autolinker.link(feature.properties['nome'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                   <tr>\
+                        <td colspan="2"><strong>Comune</strong><br />' + (feature.properties['comune'] !== null ? autolinker.link(feature.properties['comune'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['nome'] !== null ? autolinker.link(feature.properties['nome'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['comune'] !== null ? autolinker.link(feature.properties['comune'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['via_piazza'] !== null ? autolinker.link(feature.properties['via_piazza'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2"><strong>Indirizzo</strong><br />' + (feature.properties['via_piazza'] !== null ? autolinker.link(feature.properties['via_piazza'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['contatti'] !== null ? autolinker.link(feature.properties['contatti'].toLocaleString()) : '') + '</td>\
